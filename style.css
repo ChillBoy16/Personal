@@ -1,0 +1,99 @@
+@font-face {
+    font-family: pixel;
+    src: url(pixel-bit-advanced.ttf);
+}
+
+body {
+    font-family: pixel;
+    font-size: medium;
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.responsive-iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.avatar {
+    vertical-align: middle;
+    border-radius: 0%;
+    margin-bottom: 50px;
+    border: 0px solid white;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.html {
+    width: 80%;
+    background-color: #e65326;
+    border: 5px solid #500112;
+    color: rgb(61, 1, 1);
+}
+
+.css {
+    width: 79%;
+    background-color: #2196F3;
+    border: 5px solid #002f55;
+    color: rgb(2, 38, 82);
+}
+
+.js {
+    width: 65%;
+    background-color: #f44336;
+    border: 5px solid #44010a;
+    color: rgb(26, 0, 0);
+}
+
+.php {
+    width: 0%;
+    background-color: #808080;
+    border: 5px solid #3e4e5c;
+    color: rgb(0, 0, 0);
+}
+
+.cen-img {
+    transition: all 1s ease;
+    -webkit-filter: blur(0px);
+    filter: blur(9px);
+}
+
+.cen-img:hover {
+    transition: all 0.1s ease;
+    -webkit-filter: blur(5px);
+    filter: blur(0px);
+}
+
+center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
