@@ -72,10 +72,52 @@ img {
     color: rgb(26, 0, 0);
 }
 
-.php {
-    width: 0%;
+.node {
+    width: 40%;
     background-color: #808080;
     border: 5px solid #3e4e5c;
+    color: rgb(0, 0, 0);
+}
+
+.react {
+    width: 45%;
+    background-color: #08ad02;
+    border: 5px solid #002b07;
+    color: rgb(0, 0, 0);
+}
+
+.vscode {
+    width: 90%;
+    background-color: #085dad;
+    border: 5px solid #001b33;
+    color: rgb(0, 0, 0);
+}
+
+.git {
+    width: 70%;
+    background-color: #808080;
+    border: 5px solid #3e4e5c;
+    color: rgb(0, 0, 0);
+}
+
+.fl {
+    width: 90%;
+    background-color: #d35400;
+    border: 5px solid #742100;
+    color: rgb(0, 0, 0);
+}
+
+.con {
+    width: 75%;
+    background-color: #394933;
+    border: 5px solid #3e4e5c;
+    color: rgb(0, 0, 0);
+}
+
+.ase {
+    width: 95%;
+    background-color: #badaff;
+    border: 5px solid #0b385f;
     color: rgb(0, 0, 0);
 }
 
